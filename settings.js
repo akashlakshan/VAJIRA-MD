@@ -6,8 +6,8 @@ function convertToBool(text, fault = 'true') {
 global.email = 'vajirarathnayaka891@gmail.com'
 global.github = 'https://github.com/VajirTech/VAJIRA-MD'
 global.location = 'Srilanka Colombo'
-global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
-global.author = '𝙑𝘼𝙅𝙄𝙍𝘼 𝙈𝘿';
+global.packname = '𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰';
+global.author = '𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰';
 global.mess = {
     banned: '`You are *Banned* fron using commands!`',
     bangc: '`This Group is *Banned* from using Commands!`',
@@ -22,10 +22,10 @@ global.mess = {
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 }
 
-global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.owner = [process.env.OWNER_NUMBER] || ['94762724515'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
-SESSION_ID: process.env.SESSION_ID || 'youre session id',
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=KJcGhAwC#5eKfvLkN5kKXmw5KfsmQYJJSOTOIjNkr-w-e8JvdT-c',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://izumimd_meje_user:0Vhm5vKGZ7ORt2FlJBQf4d6EtRdeuE8z@dpg-cn0o2imn7f5s73fa46q0-a.frankfurt-postgres.render.com/izumimd_meje',
 PREFIX:  process.env.PREFIX || ['.'] ,
 LANG:  process.env.LANG || 'SI' ,    
@@ -36,18 +36,18 @@ AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,    
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,            
-WORK_TYPE: process.env.WORK_TYPE || 'private'  ,
+WORK_TYPE: process.env.WORK_TYPE || 'public'  ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
-OWNER_NUMBER: process.env.OWNER_NUMBER || '94719199757'  ,    
-ALIVE: process.env.ALIVE || `default`,
-OWNER_NAME: process.env.OWNER_NAME || 'Vajira' ,     
+OWNER_NUMBER: process.env.OWNER_NUMBER || '94762724515'  ,    
+ALIVE: process.env.ALIVE || `𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰`,
+OWNER_NAME: process.env.OWNER_NAME || '𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰' ,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,    
 NUMBER_212_BLOCK: process.env.NUMBER_212_BLOCK || false  ,
-FOOTER: process.env.FOOTER ||  '©ＶＡＪＩＲＡ - ＭＤ - Ｖ4',
-LOGO: process.env.LOGO || `https://telegra.ph/file/03f1eccdcb525a5e1a6ad.jpg` ,
-IMAGE: process.env.IMAGE || `https://telegra.ph/file/03f1eccdcb525a5e1a6ad.jpg`     
+FOOTER: process.env.FOOTER || ' 𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰',
+LOGO: process.env.LOGO || `https://telegra.ph/file/703874d2c008888a299bb.jpg` ,
+IMAGE: process.env.IMAGE || `https://telegra.ph/file/703874d2c008888a299bb.jpg`     
 };
